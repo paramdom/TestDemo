@@ -25,9 +25,9 @@ public class LoginTest {
 		driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys(getUsername());
 		driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(getPassword());
 		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
-		String title = driver.getCurrentUrl();
+		String title = driver.getTitle();
 		System.out.println("Page Title: "+ title);
-		Assert.assertEquals(title, "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/ind");
+		Assert.assertEquals(title, "OrangeHRM");
 		}
 
 	
