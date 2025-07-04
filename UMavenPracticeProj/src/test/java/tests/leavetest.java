@@ -7,6 +7,7 @@ public class leavetest {
 	public void test1 (){
 		System.out.println("This is Leave page");
 		System.out.println("test");
+		System.out.println("23");
 	}
 
 }
