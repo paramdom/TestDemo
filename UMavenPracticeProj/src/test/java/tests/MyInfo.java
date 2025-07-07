@@ -8,6 +8,7 @@ public class MyInfo {
 		System.out.println("This is My Info Page.");
 		System.out.println("New Feature Branch 8.");
 		System.out.println("In this page, we get information about User Profile");
+	System.out.println("two one three");
 	}
 
 }
